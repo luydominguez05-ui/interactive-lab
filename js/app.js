@@ -13,8 +13,10 @@
   };
   document.getElementById("github-link").href = PROFILE.github;
   document.getElementById("email-link").href = "mailto:" + PROFILE.email;
-  const sourceLink = document.getElementById("github-source-link");
-  if (sourceLink) sourceLink.href = PROFILE.github;
+const sourceLink = document.getElementById("github-source-link");
+if (sourceLink) {
+  sourceLink.href = "https://github.com/luydominguez05-ui/interactive-lab";
+}
 
   window.closeModal = () => {
     backdrop.hidden = true;
