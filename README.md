@@ -69,18 +69,6 @@ Use your actual GitHub profile and a professional contact email. You can also ed
 4. Add a small technical "How it works" panel to make the implementation decisions visible to reviewers.
 
 
-## Epicor-inspired styling
-
-The interface uses a deep blue/teal palette with mint accents, taking broad visual cues from Epicor's public brand presence. This is an independent portfolio exercise and is not an official Epicor product, does not represent the company, and is not endorsed by Epicor.
-
-The Epicor wordmark is loaded from Wikimedia Commons:
-- File: `Epicor-logo.svg`
-- Original author/source identified by Commons: Epicor
-- File page: https://commons.wikimedia.org/wiki/File:Epicor-logo.svg
-- Original source cited there: https://www.epicor.com/globalassets/uploadedimages/shared/epicor-logo.svg
-
-The logo is used only to identify the company this personal demo is tailored toward. Epicor's name and logo remain trademarks of their respective owner. If you prefer not to use a third-party hosted logo, replace the `<img>` source in `index.html` with an asset supplied by Epicor or remove it.
-
 ## Source code viewer
 
 The page includes a read-only source explorer. It fetches `app.js`, `logic-chamber.js`, `data-universe.js`, `index.html` and `style.css` from the same origin and renders them with `textContent`, so the code is displayed as text and is not executed by the viewer. It requires a local HTTP server or GitHub Pages; it will not work reliably when opening the HTML file directly from the filesystem.
